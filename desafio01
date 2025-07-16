@@ -5,17 +5,18 @@ extrato = ""
 numero_saques = 0
 LIMITE_SAQUES = 3
 
-menu = """
+print("""
 MENU:
 [1] Depositar
 [2] Sacar
 [3] Extrato
 [4] Sair
-"""
+""")
 
 while True:
-
-    escolha = input(menu)
+    print("-"*35)
+    escolha = input("Escolha a operação desejada: ")
+    print("-"*35)
 
     if escolha == "1":
         valor = float(input("Valor do Depósito: "))
